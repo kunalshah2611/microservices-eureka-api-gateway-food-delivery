@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Food Delivery Home</title>
+</head>
+<body>
+    <h1>Welcome to the Food Delivery Service</h1>
+    <div th:if="${userName}">
+        <p>Hello, <span th:text="${userName}">User</span>!</p>
+        <a href="/protected">Go to protected page</a><br/>
+        <a href="/logout">Logout</a>
+    </div>
+    <div th:if="${userName == null}">
+        <a href="/oauth2/authorization/google">Login with Google</a>
+    </div>
+</body>
+</html>
