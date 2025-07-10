@@ -1,4 +1,4 @@
-99999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999# Microservices Project: Eureka Server, API Gateway, and Food Delivery Service
+# Microservices Project: Eureka Server, API Gateway, and Food Delivery Service
 
 ## Overview
 
